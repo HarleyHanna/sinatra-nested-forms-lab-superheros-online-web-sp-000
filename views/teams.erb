@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <h1><%= @teams[:team][:name] %> </h1>
-    <h2>Team Motto: <%= params["teams"]["motto"] %></h2>
+    <h1><%= @team.name %> </h1>
+    <h2>Team Motto: <%= @team.motto %></h2>
   </head>
   <body>
     <h2>Hero Name: <%= params["team"]["members"][0]["name"] %></h2>
