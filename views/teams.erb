@@ -6,7 +6,9 @@
   </head>
   <body>
     <% @heroes.each do |member| %>
-    <
-      
+      <h2>Hero Name: <%= member.name %></h2>
+      <p>Hero Power: <%= member.power %></p>
+      <p>Hero Bio: <%= member.bio %></p>
+    <% end %>
   </body>
 </html>
